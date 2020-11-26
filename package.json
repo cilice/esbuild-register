@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-register",
+  "name": "@cilice/esbuild-register",
   "description": "Transpile JSX, TypeScript and esnext features on the fly with esbuild",
   "version": "0.0.0",
   "main": "register.js",
