@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "build": "tsup src/node.ts",
-    "test": "npm run build && node -r esm -r ./register.js tests/test.ts",
-    "prepublishOnly": "npm run build"
+    "test": "yarn build && node -r esm -r ./register.js tests/test.ts",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "esbuild": "^0.8.0"
